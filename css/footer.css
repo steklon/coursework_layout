@@ -1,0 +1,25 @@
+.footer__link {
+    height: 83px;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px
+}
+
+.footer__link-img {
+    width: 20px;
+}
+
+.footer__copyrights {
+    min-height: 128px;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 10px;
+}
+
+.footer__copyrights-text {
+    font-family: 'OpenSansBold';
+    font-size: 0.75em;
+    color: #999999;
+}

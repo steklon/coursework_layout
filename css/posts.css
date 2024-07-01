@@ -1,0 +1,54 @@
+.posts-conteiner {
+    display: flex;
+    padding-top: 59px;
+}
+
+.posts {
+    width: 77%;
+    text-align: start;
+}
+
+.post {
+    display: flex;
+    margin-bottom: 62px;
+}
+
+.post__img {
+    width: 42%;
+    margin-right: 34px;
+}
+
+.post__inner {
+    padding-right: 108px;
+}
+
+.post_title {
+    margin-bottom: 28px;
+    color: #0f0d0e;
+}
+
+.post__date {
+    font-family: 'OpenSansRegular';
+    color: #888888;
+    font-size: 0.75em;
+    margin-right: 7px;
+}
+
+.post__author {
+    font-family: 'OpenSansBold';
+    font-size: 0.75em;
+    color: #000000;
+}
+
+.post__description {
+    margin-top: 45px;
+}
+
+.post__text {
+    padding-right: 9px;
+    margin-bottom: 10px;
+    font-family: 'OpenSansRegular';
+    font-size: 0.9375em;
+    line-height: 1.47em;
+    color: #0f0d0e;
+}

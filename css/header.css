@@ -1,0 +1,72 @@
+.welcome {
+    min-height: 450px;
+    background-image: url("../images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #666666;
+    position: relative;
+    z-index: 0;
+}
+
+.welcome::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.top-panel__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 29px;
+}
+
+.logo {
+    width:180px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__list-item {
+    display: inline-block;
+    color: #ffffff;
+
+}
+
+.menu__link {
+    margin-left: 30px;
+    font-size: 13px;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'OpenSansRegular';
+    text-transform: uppercase;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.header__slogan {
+    width: 59%;
+    margin-top: 104px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'OpenSansBold';
+    font-size: 45px;
+    line-height: 75px;
+    text-transform: uppercase;
+    cursor: default;
+}
