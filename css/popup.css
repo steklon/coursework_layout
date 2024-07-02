@@ -93,6 +93,8 @@
 .radio {
     width: 0;
     position: absolute;
+    -webkit-appearance: none;
+    -moz-appearace: none;
 }
 
 .radio__agreement {
